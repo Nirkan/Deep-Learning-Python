@@ -47,7 +47,7 @@ model = keras.Sequential()
 
 model.add(keras.layers.Embedding(10000, 16))
 
-model.add(keras.layers.GlobalAveragePooling1D()
+model.add(keras.layers.GlobalAveragePooling1D())
 
 model.add(keras.layers.Dense(16, activation = "relu"))
 
